@@ -68,13 +68,7 @@
         If M1 Then
             NumDice = 3
 
-            For i As Integer = 1 To NumDice
-                Die = (Rnd() * 6) + 1
-                If Die > 6 Then
-                    Die = 6
-                End If
-                TotalRoll += Die
-            Next
+            Roll(3, "D6")
         ElseIf M2 Then
             NumDice = 4
 
