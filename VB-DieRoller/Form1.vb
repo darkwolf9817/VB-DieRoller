@@ -66,9 +66,7 @@
         Dim NumDice, Die, TotalRoll As Integer
         Dim DieList As List(Of Integer) = New List(Of Integer)
         If M1 Then
-            NumDice = 3
-
-            Roll(3, "D6")
+            TotalRoll = Roll(3, "D6")
         ElseIf M2 Then
             NumDice = 4
 
